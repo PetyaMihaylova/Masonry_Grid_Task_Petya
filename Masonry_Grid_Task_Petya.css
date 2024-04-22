@@ -1,3 +1,13 @@
+body {
+    background-color: teal;
+}
+
+h1 {
+    text-align: center;
+    color:rgb(99, 245, 8)
+    
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
