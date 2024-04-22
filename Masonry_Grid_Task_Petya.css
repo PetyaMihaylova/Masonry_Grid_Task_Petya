@@ -15,6 +15,7 @@ h1 {
     width: 50vw;
     height: 100vh;
     margin: auto;
+    /* background-color: rgb(234, 238, 242); */
 }
 
 .text1 {
@@ -36,7 +37,9 @@ h1 {
 
 div {
     position: relative;
-    border: 2px solid rgb(245, 237, 237);
+    /* border: 2px solid rgb(245, 237, 237); */
+    row-gap: 2px;
+    column-gap: 2px;
    
 }
 
