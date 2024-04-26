@@ -22,6 +22,14 @@ initial-letter: 2;
     padding: 1em;
   }
 
+.portrait-picture:hover {
+    transform: scale(2);
+}
+
+.friend-picture:hover {
+    transform: scale(2);
+}
+
 .friend-picture {
     float: left;
     margin-right: 15px;
