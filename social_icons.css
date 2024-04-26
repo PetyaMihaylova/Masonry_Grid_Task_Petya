@@ -26,11 +26,11 @@ initial-letter: 2;
     transform: scale(2);
 }
 
-.friend-picture:hover {
+.friend-portrait:hover {
     transform: scale(2);
 }
 
-.friend-picture {
+.friend-portrait {
     float: left;
     margin-right: 15px;
     width: 150px;
