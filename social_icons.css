@@ -1,0 +1,58 @@
+.social {
+    display: grid;
+    grid-template-rows: repeat(2, 18px);
+    grid-template-columns: repeat(5, 26px);
+    grid-gap: 12px;
+    margin-bottom: 50px;
+}
+
+ul, li {
+list-style: none;
+padding: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.facebook-icon {
+    background-image: url(facebook.svg);
+}
+
+.instagram-icon {
+    background-image: url(square-instagram.svg);
+}
+
+.github-icon {
+    background-image: url(github.svg);
+}
+
+.tiktok-icon {
+    background-image: url(tiktok.svg);
+}
+
+.linkedin-icon {
+    background-image: url(linkedin.svg);
+}
+
+.telegram-icon {
+    background-image: url(telegram.svg);
+}
+
+.facebook-icon, .instagram-icon, .github-icon, .tiktok-icon, .linkedin-icon, .telegram-icon {
+    display: block;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;}
+
+.icon-btn:last-child {
+    margin-right: 0;
+    }
+
+a  {
+        color: #d6d6d6;
+    }
+
+.icon-btn {
+    
+    transition: all .2s ease;}
