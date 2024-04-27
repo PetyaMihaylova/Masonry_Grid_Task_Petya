@@ -3,8 +3,9 @@ body {
     max-width: 900px;
     margin: 0 auto;
     background: linear-gradient(rgb(166, 166, 234), rgb(238, 238, 159));
-    /* background-image: url(kitten.jpg);
-    background-repeat: round; */
+    background-image: url(kitten.jpg);
+    background-size: 100%;
+    background-repeat: round;
     font:
       0.9em/1.2 Arial,
       Helvetica,
